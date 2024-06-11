@@ -24,7 +24,8 @@
     SELECT COUNT(*) AS total_registrations
     FROM registrations;
   Captura:
-<img src="./Capturas/sentence03.png" alt="drawing" width="500"/>
+
+![sentence03](https://github.com/Jonna007/Funciones-de-Agregaci-n/assets/146044709/0b895d35-8c72-47d9-8b91-922e4a5a78f4)
 
 ## 4. Obtener el número total de asistentes a todas las conferencias
   - Sentencia:
@@ -32,7 +33,8 @@
     SELECT COUNT(DISTINCT member_id) AS total_attendees
     FROM registrations;
   Captura:
-<img src="./Capturas/sentence04.png" alt="drawing" width="500"/>
+
+![sentence04](https://github.com/Jonna007/Funciones-de-Agregaci-n/assets/146044709/f6a0f335-ed90-402f-950a-df81f2383011)
 
 ## 5. Obtener el número total de eventos por cada ciudad
   - Sentencia:
@@ -41,7 +43,7 @@
     FROM events
     GROUP BY city;
   Captura:
-<img src="./Capturas/sentence05.png" alt="drawing" width="500"/>
+![sentence05](https://github.com/Jonna007/Funciones-de-Agregaci-n/assets/146044709/e86ae9ef-0f19-46e3-9feb-f372427f78d0)
 
 ## 6. Obtener el número de registros por cada miembro
   - Sentencia:
@@ -50,7 +52,8 @@
     FROM registrations
     GROUP BY member_id;
   Captura:
-<img src="./Capturas/sentence06.png" alt="drawing" width="500"/>
+
+![sentence06](https://github.com/Jonna007/Funciones-de-Agregaci-n/assets/146044709/16b8aef1-31b8-4d9d-8501-9793c00628ca)
 
 ## 7. Obtener el número de registros por cada conferencia
   - Sentencia:
@@ -59,4 +62,5 @@
     FROM registrations
     GROUP BY event_id;
   Captura:
-<img src="./Capturas/sentence07.png" alt="drawing" width="500"/>
+![sentence07](https://github.com/Jonna007/Funciones-de-Agregaci-n/assets/146044709/eeda1a27-a308-40d1-bb59-162c807e8470)
+
