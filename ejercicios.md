@@ -6,7 +6,7 @@
     SELECT AVG(EXTRACT(YEAR FROM AGE(birth_date))) AS average_age
     FROM members;
   Captura:
-<img src="https://github.com/Jonna007/Funciones-de-Agregaci-n/blob/main/Capturas/sentence01.png.png"/>
+<img src="https://github.com/Jonna007/Funciones-de-Agregaci-n/blob/main/Capturas/sentence01.png.png">
 
 ## 2. Obtener la edad mínima de los miembros
   - Sentencia:
