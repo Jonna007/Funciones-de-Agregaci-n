@@ -7,6 +7,7 @@
     FROM members;
   -Captura:
 
+![sentence01 png](https://github.com/Jonna007/Funciones-de-Agregaci-n/assets/146044709/9d68aec4-87ba-4062-bcd6-a290c1b9292a)
 
 ## 2. Obtener la edad mínima de los miembros
   - Sentencia:
@@ -14,7 +15,8 @@
     SELECT MIN(EXTRACT(YEAR FROM AGE(birth_date))) AS minimum_age
     FROM members;
  - Captura:
-<img src="./Capturas/sentence02.png" alt="drawing" width="500"/>
+<img src="![sentence02](https://github.com/Jonna007/Funciones-de-Agregaci-n/assets/146044709/95c649c5-259c-479f-82ac-018dfad05f30)
+" alt="drawing" width="500"/>
 
 ## 3. Obtener el número total de registros asistidos
   - Sentencia:
