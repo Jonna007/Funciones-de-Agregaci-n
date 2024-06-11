@@ -5,15 +5,15 @@
   ```sql
     SELECT AVG(EXTRACT(YEAR FROM AGE(birth_date))) AS average_age
     FROM members;
-  Captura:
-<img src="https://github.com/Jonna007/Funciones-de-Agregaci-n/blob/main/Capturas/sentence01.png.png">
+  -Captura:
+
 
 ## 2. Obtener la edad mínima de los miembros
   - Sentencia:
   ```sql
     SELECT MIN(EXTRACT(YEAR FROM AGE(birth_date))) AS minimum_age
     FROM members;
-  Captura:
+ - Captura:
 <img src="./Capturas/sentence02.png" alt="drawing" width="500"/>
 
 ## 3. Obtener el número total de registros asistidos
